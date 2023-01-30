@@ -1,0 +1,36 @@
+.functions {
+    margin-top: 480px;
+    position: relative;
+    background: #01AFEB;
+    max-height: 635px;
+}
+.functions__wrapper {
+    position: relative;
+    height: 600px;
+}
+
+.functions__items {
+    bottom: 50px;
+    width: 100%;
+    position: absolute;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.function {
+    max-width: 300px;
+    text-align: center;
+}
+.function__title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+}
+.function__text {
+    max-width: 240px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}

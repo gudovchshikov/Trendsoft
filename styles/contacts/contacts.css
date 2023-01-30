@@ -1,0 +1,49 @@
+.cotnacts__wrapper {
+    display: flex;
+    align-items: center;
+}
+.questions {
+    color: #fff;
+    background-color: #F83718;
+    padding: 48px 134px 48px 58px;
+}
+.cotnacts__wrapper {
+    padding-top: 150px;
+}
+.contacts__title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 120%;
+    text-transform: uppercase;
+}
+.questions__calltous {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+}
+.questions__mail {
+    margin-top: 14px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%
+}
+.location {
+    padding: 48px 133px 48px 58px;
+}
+.location__number {
+    color: #000;
+    text-decoration: none;
+    margin-top: 29px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+.location__real {
+    margin-top: 9px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}

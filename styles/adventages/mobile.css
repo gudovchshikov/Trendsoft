@@ -1,0 +1,53 @@
+@media screen and (max-width: 1028px){
+    .progress-card__plus {
+        font-size: 24px;
+    }
+    .progress-card__text {
+        font-size: 20px;
+    }
+    .module__wrapper {
+        display: block;
+    }
+    .module__info {
+        margin-top: 40px;
+    }
+    .module {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .module__text {
+        margin: 20px auto 0 auto;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .module__img {
+        max-width: 400px;
+        width: 100%;
+    }
+    .theme_adventages {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 580px){
+    .module__image::before {
+        display: none;
+    }
+    .module__wrapper, .module__image {
+        padding: 0;
+    }
+    .module__wrapper {
+        max-width: max-content;
+    }
+}
+@media screen and (max-width: 500px){
+    .adventages__title {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 380px){
+    .adventages__title {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,13 @@
+@media screen and (max-width: 960px){
+    .cotnacts__wrapper {
+        display: block;
+    }
+    .questions {
+        text-align: center;
+        padding: 48px 0 48px 0;
+    }
+    .location {
+        text-align: center;
+        padding: 48px 0 48px 0;
+    }
+}

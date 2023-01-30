@@ -1,0 +1,50 @@
+.casting__info {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 615px;
+}
+.casting__text {
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+}
+.casting__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+}
+.theme_casting {
+    margin-top: 30px;
+}
+.casting__image {
+    padding: 25px;
+    position: relative;
+
+}
+.casting__image-wrapper {
+    background-color: #fff;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+.casting__image::before {
+    z-index: -1;
+    content: url('../../images/adventages/background.svg');
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.casting__image::after {
+    z-index: -1;
+    content: url('../../images/adventages/background.svg');
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.casting__img {
+    box-shadow: 0px 2px 25px rgba(75, 77, 83, 0.25);
+}
+.casting__img_second {
+    margin-left: -100px;
+}

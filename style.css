@@ -1,0 +1,28 @@
+@import url('styles/import.css');
+@import url('fonts/fonts.css');
+a {
+    display: inline-block;
+}
+* {
+    font-family: 'Ubuntu';
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    max-width: 1164px;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+
+html {
+    scroll-padding-top: 100px;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+@media screen and (max-width: 380px){
+    .title__h2 {
+        font-size: 20px;
+    }
+}

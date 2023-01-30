@@ -1,0 +1,59 @@
+.cloud {
+    top: -480px;
+    z-index: 1;
+    position: absolute;
+}
+.cloud__wrapper {
+    margin-top: 128px;
+}
+.cloud__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 628px;
+}
+.cloud__image {
+    padding: 25px;
+    position: relative;
+
+}
+.cloud__image-wrapper {
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+.cloud__image::before {
+    z-index: -1;
+    content: url('../../images/cloud/bg.svg');
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.cloud__image::after {
+    z-index: -1;
+    content: url('../../images/adventages/background.svg');
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.cloud__info {
+    margin-left: 60px;
+    max-width: 420px;
+}
+.cloud__name {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+}
+.cloud__text {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+}

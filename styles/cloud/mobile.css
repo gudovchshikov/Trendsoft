@@ -1,0 +1,66 @@
+@media screen and (max-width: 1120px){
+    .functions {
+        margin-top: 100px;
+        max-height: unset;
+        background: unset;
+    }
+    .cloud {
+        position: unset;
+    }
+    
+    .cloud__image {
+        max-width: max-content;
+        margin: 50px auto 50px auto;
+    }
+    .cloud__name {
+        margin-top: 30px;
+    }
+    .cloud__info {
+
+        text-align: center;
+        margin: 0 auto;
+    }
+    .cloud__image::before {
+        content: url('../../images/adventages/background.svg');
+    }
+    .cloud__image-wrapper {
+        display: block;
+    }
+    .functions__wrapper {
+        height: unset;
+        background: #01AFEB;
+    }
+    .functions__items {
+        gap: 50px;
+        position: unset;
+        flex-wrap: wrap;
+        flex-grow: 2;
+        padding: 50px 0;
+        background-color: #01AFEB;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 750px){
+    .cloud__img {
+        max-width: 400px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 580px){
+    .cloud__image::before {
+        display: none;
+    }
+    .cloud__image-wrapper, .cloud__image {
+        padding: 0;
+    }
+}
+@media screen and (max-width: 500px){
+    .cloud__title  {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 380px){
+    .cloud__title  {
+        font-size: 20px;
+    }
+}

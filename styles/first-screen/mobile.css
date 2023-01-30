@@ -1,0 +1,24 @@
+@media screen and (max-width: 1028px){
+    .first-screen__title {
+        font-size: 32px;
+    }
+    .first-screen__img {
+        max-width: 400px;
+    }
+}
+@media screen and (max-width: 800px){
+    .first-screen__content {
+        flex-direction: column;
+    }
+    .first-screen__info {
+        text-align: center;
+    }
+    .first-screen__title, .first-screen__text {
+        max-width: unset;
+    }
+}
+@media screen and (max-width: 430px){
+    .first-screen__img {
+        max-width: 300px;
+    }
+}

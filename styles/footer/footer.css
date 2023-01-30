@@ -1,0 +1,12 @@
+.footer__wrapper {
+    padding: 60px 0;
+}
+.footer__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #959595;    
+    text-align: center;
+    max-width: 560px;
+    margin: 0 auto;
+}

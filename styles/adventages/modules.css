@@ -1,0 +1,74 @@
+.modules__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.module {
+    position: relative;
+}
+.module:not(:last-child) {
+    margin-bottom: 50px;
+}
+.module:nth-child(even) .module__wrapper {
+    flex-direction: row-reverse;
+}
+.module:nth-child(even) .module__wrapper .module__image::before {
+    right: -25px;
+    left: unset;
+}
+.module__wrapper {
+    padding: 25px 25px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.module__image {
+    position: relative;
+    background-color: #fff;
+    padding: 30px;
+}
+.module__image::before {
+    z-index: -1;
+    content: url('../../images/adventages/background.svg');
+    position: absolute;
+    bottom: -25px;
+    left: -25px;
+}
+
+.module__title {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+}
+.module__text {
+    margin-top: 30px;
+    max-width: 450px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 120%;
+}
+.link-button {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 120%;
+    margin-top: calc(30px + 9px);
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 9px 28px;
+}
+.link-button {
+    background: linear-gradient(to left, #F83718 50%, #EE816C 50%) right;
+    background-size: 200%;
+    transition: .5s;
+}
+
+.link-button:hover {
+    background-position: left;
+}
+
+.module__img {
+    box-shadow: 0px 2px 25px rgba(75, 77, 83, 0.25);
+}

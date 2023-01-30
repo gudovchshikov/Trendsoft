@@ -1,0 +1,20 @@
+@media screen and (max-width: 960px){
+    .dev__wrapper {
+        display: block;
+    }
+    .dev__info {
+        margin: 0 auto;
+    }
+    .pluses {
+        margin-top: 50px;
+    }
+
+}
+@media screen and (max-width: 760px){
+    .pluses {
+        display: block;
+    }
+    .pluses__item {
+        margin: 0 auto;
+    }
+}
