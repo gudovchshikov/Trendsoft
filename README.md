@@ -1,4 +1,4 @@
-# [Page Project](https://gudovchshikov.github.io/Trendsoft/)
+# [Перейти на Trendsoft](https://gudovchshikov.github.io/Trendsoft/)
 При разработке использовалось:
 * BEM tecnology ( classes )
 * HTML
